@@ -2,7 +2,7 @@ import { IConfig } from './src/types'
 
 const c: IConfig = {
   // [必填], 请填写您的仓库地址
-  gitRepoUrl: 'https://github.com/xjh22222228/nav',
+  gitRepoUrl: 'https://github.com/CloudMinds-BigData/nav',
 
   // 部署分支
   branch: 'main',
@@ -26,12 +26,11 @@ const c: IConfig = {
   keywords: '导航,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,node.js',
 
   // 默认主题: Light | Sim | Side | App | Shortcut
-  theme: 'Light',
+  theme: 'Sim',
 
   // 网站底部内容, 版权信息、备案号, 可以是 HTML
   footerContent: `
-    <div style="font-weight: bold;">共收录\${total}个网站</div>
-    <div>Copyright © 2018-2021 nav3.cn, All Rights Reserved</div>
+    <div>Copyright © 2018-2021  All Rights Reserved</div>
   `,
 
   // 阿里巴巴矢量图库 https://www.iconfont.cn/
@@ -52,7 +51,7 @@ const c: IConfig = {
     posterImageUrls: [
       'https://raw.sevencdn.com/xjh22222228/nav/image/sim-wallpaper.jpg'
     ],
-    description: '这里收录多达 <b>${total}</b> 个优质网站， 助您工作、学习和生活'
+    description: ''
   }
 }
 
