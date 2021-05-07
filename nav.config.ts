@@ -17,10 +17,10 @@ const c: IConfig = {
   homeUrl: 'https://nav3.cn',
 
   // 网站标题
-  title: 'Cloudminds BigData 导航网站',
+  title: 'CloudMinds BigData 导航网站',
 
   // 网站描述
-  description: 'Cloudminds BigData 导航网站',
+  description: 'CloudMinds BigData 导航网站',
 
   // 网站关键字
   keywords: '导航,前端资源,实用工具,学习资源,node.js',
